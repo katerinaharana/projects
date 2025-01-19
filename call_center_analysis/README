@@ -1,0 +1,58 @@
+
+# Call Center Analysis
+
+## Overview
+This project analyzes call center performance data to evaluate both **agent performance** and **daily call center operations**. By examining key metrics such as call handling efficiency, satisfaction ratings, and agent-specific performance, it identifies opportunities for improvement and trends in customer service.
+
+## Features
+### 1. **Agent Performance Analysis**
+   - Tracks the number of agents working each day.
+   - Analyzes average calls handled per agent.
+   - Breaks down performance metrics by agent.
+
+### 2. **Daily Call Center Analysis**
+   - Number of answered and missed calls per day.
+   - Percentage of calls lost.
+   - Trends in customer satisfaction ratings and average talk durations.
+
+### 3. **Key Performance Indicators (KPIs)**
+   - Customer satisfaction scores.
+   - Average talk durations.
+   - Percentage of lost calls.
+
+## Installation
+### Prerequisites
+- Python 3.7 or later
+- Jupyter Notebook
+- Required libraries: `pandas`, `numpy`, `matplotlib`
+
+## Data Details
+### Input Dataset
+The dataset contains the following columns:
+- `Date`: Date of the call.
+- `Answered (Y/N)`: Whether the call was answered or missed.
+- `Agent`: Identifier for the agent handling the call.
+- `Satisfaction rating`: Customer satisfaction score for the call.
+- `AvgTalkDuration`: Average talk duration of the call (in seconds).
+
+### Analysis Outputs
+1. **Agent Performance Analysis**:
+   - Average calls per agent.
+   - Total calls handled by agents.
+   - Comparison of agent productivity over time.
+
+2. **Daily Call Center Analysis**:
+   - Number of answered vs. missed calls.
+   - Percentage of calls lost.
+   - Customer satisfaction trends.
+
+
+## Results
+- **Agent Performance**:
+  - Daily breakdown of agent productivity.
+  - Total and average calls handled by agents.
+  
+- **Call Center Trends**:
+  - Analysis of lost calls by percentage and volume.
+  - Satisfaction and talk duration trends over time.
+
