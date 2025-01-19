@@ -37,7 +37,7 @@ The dataset contains the following columns:
 
 ### Analysis Outputs
 1. **Agent Performance Analysis**:
-   - Average calls per agent.
+   - Average handling time and rating per agent.
    - Total calls handled by agents.
    - Comparison of agent productivity over time.
 
@@ -45,14 +45,4 @@ The dataset contains the following columns:
    - Number of answered vs. missed calls.
    - Percentage of calls lost.
    - Customer satisfaction trends.
-
-
-## Results
-- **Agent Performance**:
-  - Daily breakdown of agent productivity.
-  - Total and average calls handled by agents.
-  
-- **Call Center Trends**:
-  - Analysis of lost calls by percentage and volume.
-  - Satisfaction and talk duration trends over time.
 
